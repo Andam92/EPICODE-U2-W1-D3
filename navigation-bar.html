@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation bar</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(138, 82, 41);
+      }
+
+      nav {
+        background-color: rgb(236, 225, 192);
+        width: 100%;
+        border-radius: 100px;
+      }
+      nav ul {
+        list-style: none;
+        padding: 30px 0 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      nav ul li {
+        padding: 30px 20px;
+        text-align: center;
+        background-color: rgb(247, 219, 135);
+        border-radius: 60px;
+      }
+
+      ul img {
+        width: 80px;
+        height: 60px;
+      }
+
+      .shop {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 20px;
+        text-align: center;
+        background-color: rgb(247, 219, 135);
+        border-radius: 60px;
+      }
+
+      .shop p {
+        padding-left: 30px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Our Honey</li>
+        <li>Trace Honey</li>
+        <div class="shop">
+          <img src="./assets/imgs/logo.png" />
+          <p>SHOP</p>
+        </div>
+        <li>Facilities</li>
+        <li>Contacts</li>
+      </ul>
+    </nav>
+  </body>
+</html>
