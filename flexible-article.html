@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexible article</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      article {
+        background-color: rgb(236, 225, 192);
+        display: flex;
+        border-radius: 30px;
+      }
+      article img {
+        padding: 60px;
+      }
+      article .article-text {
+        margin: 20px;
+        color: rgb(138, 82, 41);
+      }
+      @media screen and (max-width: 1000px) {
+        article {
+          display: flex;
+          flex-direction: column;
+        }
+        article img {
+          order: 2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <img src="./assets/imgs/honey.jpg" alt="" />
+      <div class="article-text">
+        <h2>Our delicious honey</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
+          eligendi possimus soluta asperiores suscipit? Doloribus, aspernatur
+          est. Architecto a laboriosam harum nisi perspiciatis quasi ipsum
+          voluptas molestiae odio, dignissimos accusamus. Natus molestias
+          tenetur ut! Ad quisquam libero eligendi unde minima nulla assumenda,
+          deserunt laboriosam ut facilis numquam ratione reprehenderit corrupti,
+          perspiciatis ea. Ad ipsum vitae, sed optio magni cumque quas eos sint
+          tempore dolor voluptatibus quae provident pariatur ullam beatae
+          obcaecati qui culpa temporibus perferendis est impedit nihil enim
+          quaerat nulla. Architecto dolorum odit ab, dignissimos sunt ullam
+          soluta laborum, blanditiis doloremque veritatis, rem iste nostrum.
+          Excepturi sit repellat sint?
+        </p>
+      </div>
+    </article>
+  </body>
+</html>
